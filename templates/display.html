@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block main %}
+    <h2>{{ page_title }}</h2>
+    <table>
+        <thead>
+        <tr>
+            <td>Tags</td>
+            <td>Description</td>
+
+        </tr>
+        </thead>
+
+        <tbody>
+            {%  for row in data %}
+                <tr>
+                        <td>{{ row[0] }}</td>
+                        <td>{{ row[1] }}</td>
+                </tr>
+
+            {%  endfor %}
+        </tbody>
+    </table>
+{% endblock %}

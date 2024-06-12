@@ -1,0 +1,28 @@
+Type,Tag,Description
+HTML,html,the tag that goes round all the html in the page
+HTML,head,the part of the page that gives information to the browser
+HTML,title,The text to go in the title tab in the browser
+HTML,link,A link to the stylesheet for the page
+HTML,"h1, h2, ... h6","Levels of heading from the main (h1), through the sub heading levels (h2 to h6)"
+HTML,p,A paragraph. Leaves space vertically between paragraphs
+HTML,br,Line break. Moves what is after the breake to the next line as part of the same paragraph
+HTML,a,Anchor. A hyperlink to another page using href attribute. Can also be used for bookmarks
+HTML,ul,An unordered list (bulletted)
+HTML,ol,"An ordered list (1,2,3 or a,b,c or i, ii, iii etc)"
+HTML,li,List item. An item in an ordered or unordered list
+HTML,table,The tag that goes around a table
+HTML,tr,The row of a table
+HTML,th,A heading cell of a table
+HTML,td,A normal cell in a table
+HTML,img,An image to display on the page
+CSS,color,"the colour of the text. This can be hexadecimal (#000000 for black, #ffffff for white, #00ffff for yellow etc) or one of the preset colours(black, red, ...)"
+CSS,background-color,The colour of the background.Same colours as color
+CSS,margin,"How much gap there is around the border to the other elementsUsually expressed in pixels. You can specify top, right, bottom and left in the one expression"
+CSS,border,"The size, colour and type of border around the elementeg. 2px solid #ffffff"
+CSS,padding,the amount of space between the border and the elementUsually expressed in pixels (eg 3px)
+CSS,font-family,"The font that you wish to use. If you list more than one, it will use the first on the list which is available on the computer."
+CSS,font-weight,"How heavy you want to display the font. Eg. Bold, bolder, normal, lighter"
+CSS,font-size,"How big you want the font displayed. Eg. 12px, 1.5em (1.5 times the height of normal)"
+CSS,display,"How you want the elements contained in the given element didplayed. Eg. Grid, flex"
+CSS,grid-template-columns,"If you choose display: grid, how you want the columns of the grid set up. Eg 1fr, 4fr 1fr (for fractions of the total), or 150px auto (for a fixed first column)"
+CSS,grid-column,What column lines you want to span the element across. Eg 1/3 will span from the first to the 3rd line (first 2 columns)
